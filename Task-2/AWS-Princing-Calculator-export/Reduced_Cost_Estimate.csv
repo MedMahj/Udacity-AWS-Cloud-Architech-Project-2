@@ -1,0 +1,18 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,78.93,947.16,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,921.51,11058.12,USD," Inbound (from: Internet) 10 TB per month 
+ Outbound (to: Internet) 10 TB per month 
+ Intra-Region 0 TB per month 
+"
+My Estimate,US East (N. Virginia),S3 Standard,0,1177.6,14131.20,USD,S3 Standard storage (50 TB per month)
+My Estimate,US East (N. Virginia),Data Transfer,0,0,0.00,USD," Inbound (from: Internet) 0 TB per month 
+ Outbound (to: Amazon Cloud Front) 0 TB per month 
+"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,149.65,1795.80,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),Amazon EC2,0,707.36,8488.32,USD,"Operating system (Linux), Quantity (10), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (t3.large)"
+My Estimate,US East (N. Virginia),Amazon EC2,0,830,9960.00,USD,"Operating system (Linux), Quantity (10), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (m4.large)"
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,2620.2200000000003,31442.64,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (8 TB), Additional backup storage (5 TB)"
+
+
+
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
